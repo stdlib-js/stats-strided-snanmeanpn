@@ -63,6 +63,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
+import snanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmeanpn@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-snanmeanpn/tags). For example,
+
+```javascript
 import snanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmeanpn@v0.1.0-esm/index.mjs';
 ```
 
@@ -172,7 +177,7 @@ var v = snanmeanpn.ndarray( 5, x, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import snanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmeanpn@v0.1.0-esm/index.mjs';
+import snanmeanpn from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-snanmeanpn@esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
